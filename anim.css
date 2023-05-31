@@ -1,0 +1,16 @@
+img{
+    height: 100px;
+    width: 200px;
+    margin-left: 200px;
+    transition-duration: 2s;
+    animation-name: nature;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes nature{
+ 30%{ 
+        height: 600px;
+        width: 300px;
+        float:right;
+   }
+}

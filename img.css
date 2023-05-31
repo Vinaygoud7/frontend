@@ -1,0 +1,46 @@
+div{
+    height: 200px;
+    width: 100px;
+    background-color: rgba(23, 23, 130, 0.438);
+    transition-duration: 2s;
+    }
+div:hover{
+    transform: rotate(180deg);
+    }
+.image1{
+    height: 100px;
+    width: 300px;
+    transition-duration: 3s;
+    margin-left: 10cm;
+}
+.image1:hover{
+    transform: scale(4)
+}
+.image2{
+    height: 100px;
+    width: 300px;
+    transition-duration: 3s;
+    margin-left: 10cm;
+   
+}
+.image2:hover{
+    transform: rotate(180deg);
+}
+.image3{
+    height: 100px;
+    width: 300px;
+    transition-duration: 3s;
+    margin-left: 10cm;
+}
+.image3:hover{
+    transform: translate(200px);
+}
+.image4{
+     height: 100px;
+    width: 300px;
+    transition-duration: 3s;
+    margin-left: 10cm;
+    }
+.image4:hover{
+    transition: translateX(180deg);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--using for loop displey 3 words at at time-->
+        <h1 class="p2"> go</h1>
+        <h2 class="p2">gone</h2>
+        <h3 class="p2">went</h3>
+        <button ondblclick="prn()">click</button>
+        <script>
+          document.write("printing...")
+          function prn(){
+          var data=document.getElementsByClassName("p2") 
+          for(i=0;i<3;i++)
+          console.log(data[i].innerHTML)
+            } 
+            /* used to display name in console*/
+            localStorage.setItem("name","vina")
+            console.log(localStorage.getItem("name"))
+    /*prototype:to add a new content like row,coloumn-->this is used for point something*/
+function str(){
+  this.name="vinay",
+  this.email="vin@gmail.com"}
+  str.prototype.num=12345678
+  let a=new str();
+  console.log(a.name)
+  console.log(a.num)
+  /*promises: waiting state, resolve state, reject state.
+  Synchornous: one after other will be execute
+  Asynchornous:it can perform long network requests without blocking the main thread
+  and here we can run no.of instruction at a time*/
+   
+
+    </script>        
+    </body>
+    </html>
